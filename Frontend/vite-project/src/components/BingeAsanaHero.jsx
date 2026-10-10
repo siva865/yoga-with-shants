@@ -1,5 +1,6 @@
 import Hero from "../assets/Images/hero.jpg";
 import PhoneHero from "../assets/Images/mobile-hero.jpeg";
+// eslint-disable-next-line no-unused-vars
 import { motion } from "framer-motion";
 import { ArrowDown, ArrowRight } from "lucide-react";
 
@@ -21,7 +22,7 @@ export default function BingeAsanaHero() {
         <img
           src={Hero}
           alt="BingeAsana homemade nut butters and artisan cakes"
-          className="h-full w-full object-cover object-center"
+          className="size-full object-cover object-center"
         />
       </div>
 
@@ -30,7 +31,7 @@ export default function BingeAsanaHero() {
         <img
           src={PhoneHero}
           alt="BingeAsana homemade nut butters and artisan cakes"
-          className="h-full w-full object-cover object-center"
+          className="size-full object-cover object-center"
         />
       </div>
 
@@ -107,7 +108,7 @@ export default function BingeAsanaHero() {
           transition={{ delay: 0.8 }}
           onClick={() => scrollTo("nut-butters")}
           aria-label="Scroll to Nut Butters"
-          className="mt-14 flex h-12 w-12 items-center justify-center rounded-full border border-white/50 text-white transition-all duration-300 hover:bg-white hover:text-[#26382F]"
+          className="mt-14 flex size-12 items-center justify-center rounded-full border border-white/50 text-white transition-all duration-300 hover:bg-white hover:text-[#26382F]"
         >
           <ArrowDown size={19} strokeWidth={1.5} />
         </motion.button>
