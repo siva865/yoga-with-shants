@@ -1,5 +1,5 @@
 import Hero from "../assets/Images/hero.jpg";
-import PhoneHero from "../assets/Image/Mobile-hero.jpeg";
+import PhoneHero from "../assets/Images/mobile-hero.jpeg";
 import { motion } from "framer-motion";
 import { ArrowDown, ArrowRight } from "lucide-react";
 
